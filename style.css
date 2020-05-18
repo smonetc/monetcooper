@@ -1,0 +1,68 @@
+*{
+	box-sizing: border-box;
+	margin: 0 auto;
+	text-align: center;
+}
+
+nav{
+	width: 100%;
+	height: 60px;
+	background-color: grey;
+}
+
+ #hero{
+	width: 100%;
+	height: 650px;
+}
+
+ #projects{
+	width: 100%;
+	height: 600px;
+	background-color: darkgray;
+}
+
+#contact{
+	background-color: grey;
+	width: 100%;
+	height: 150px;
+}
+
+nav h3{
+	padding-top: 7px;
+}
+
+#hero h3{
+	padding-top: 7px;
+}
+
+#projects h3{
+	padding-top: 7px;
+}
+
+#contact h3{
+	padding-top: 7px;
+}
+
+/* ignore the other background colors, wanted to make sure my code worked */
+@media only screen and (max-width: 600px){
+	/* nav{
+		background-color: hotpink;
+	} */
+
+	#contact{
+		height: 80px;
+		/* background-color: green; */
+	}
+}
+
+@media only screen and (min-width: 601px){
+	/* nav{
+		background-color: purple;
+	} */
+}
+
+@media only screen and (min-width: 1000px){
+	/* nav{
+		background-color: red;
+	} */
+}

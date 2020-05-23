@@ -139,7 +139,7 @@ i a:hover{
 	text-decoration: none;
 }
 
-#more {display: none;}
+/* #more {display: none;} */
 
 .nobold{
 	font-weight: normal;
@@ -148,6 +148,7 @@ i a:hover{
 #myBtn{
 	font-size: 20px;
 	color: #7C90A0;
+	display: none;
 }
 
 
@@ -313,5 +314,6 @@ i a:hover{
 		color: #7C90A0;
 		font-weight: bolder;
 		font-size: 20px;
+		display: none;
 	}
 }

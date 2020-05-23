@@ -1,0 +1,286 @@
+/* font-family: 'Vollkorn', serif;
+font-family: 'Exo', sans-serif; */
+
+*{
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+header{
+	position: relative;
+	top: 120px;
+	margin-bottom:220px; 
+	padding: 0 20px; 
+}
+
+h1, h2{
+	font-weight: normal;
+	font-family: 'Vollkorn', serif;
+}
+
+h1{
+	color: #7C90A0;
+}
+
+h2{
+	text-decoration: underline;
+}
+
+#hiya a{
+	margin-top: 100px;
+}
+
+p{
+	line-height: 150%;
+	font-family: 'Exo', sans-serif;
+}
+
+#headline{
+	padding-bottom: 30px;
+}
+
+figcaption{
+	padding-top: 20px;
+	font-size: 10px;
+	color: #7C90A0;
+	font-weight: lighter;
+}
+
+.button{
+	display: inline-block;
+	border: 1px solid black;
+	text-decoration: none;
+	color: black;
+	padding: 10px 30px; 
+	margin-top: 40px;
+	border-radius: 20px;
+	transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.button:hover{
+	background: #7C90A0;
+	color: white;
+}
+
+ul{
+	list-style: none;
+}
+
+span{
+	font-weight: bolder;
+}
+
+
+img{
+	/* limits width of image */
+	max-width:100%;
+}
+
+.intro-img{
+	padding-top: 50px;
+}
+
+.title{
+	color:#7C90A0;
+	text-align: center;
+	font-size: 50px;
+	/* line-height: 150%;  */
+	margin-bottom: 30px;
+}
+
+
+.project{
+	margin: 30px 0;
+	padding: 50px; 
+}
+
+.project .button{
+	margin-top: 10px;
+} 
+
+.description p{
+	font-size: 1.2rem;
+}
+
+i{
+	font-size: 40px;
+	padding: 10px;
+	margin-bottom: 20px;
+	color: black;
+}
+
+i a:hover{
+	color: #7C90A0;
+}
+
+#aboutme h2{
+	text-align: center;
+	font-size: 50px;
+	line-height: 150%; 
+	margin-bottom: 100px;
+	color: #7C90A0;
+}
+
+#aboutme p{
+	text-align: center;
+	font-size: 1.5rem;
+	line-height: 150%;
+	margin-bottom: 130px;
+	padding: 0 30px
+}
+
+#contact h2{
+	text-decoration: none;
+}
+
+
+@media only screen and (min-width: 320px){
+	body{
+		text-align: center;
+		font-family: 'Exo', sans-serif; 
+	}
+
+	nav{
+		background-color: #7C90A0;
+		position: fixed;
+		z-index: 1;
+		width: 100%;
+	}
+
+	nav ul li{
+		display: inline-block;
+		margin: 0 15px;
+		padding: 0;
+		letter-spacing: 1px;
+		font-size: 16px;
+	}
+	
+	ul{
+		margin: 0;
+		padding: 0;
+	}
+	
+	nav ul{
+		margin:0 auto;
+		text-align: center;
+		padding: 30px;
+	}
+	
+	nav li a{
+		text-decoration: none;
+		color: black;
+	}
+	
+	nav li a:hover{
+		color: white;
+	}
+
+	.title{
+		padding-bottom: 40px;
+	}
+
+	h1{
+		font-size: 60px;
+		padding-bottom: 50px;
+	}
+
+	#aboutme{
+		padding: 0 20px;
+	}
+
+	#aboutme h2{
+		text-align: center;
+		font-size: 50px;
+		line-height: 150%; 
+		margin-bottom: 100px;
+	}
+	
+	#aboutme p{
+		text-align: center;
+		font-size: 25px;
+		line-height: 150%;
+		margin-bottom: 130px;
+		padding: 0 30px
+	}
+
+	#work{
+		margin-bottom: 50px;
+	}
+
+	#work img{
+		margin-bottom: 30px;
+		height: 300px;
+	}
+
+	#work p{
+		margin-top: 10px;
+		padding: 0 30px;
+	}
+
+	#contact{
+		width: 100%;
+		background-color: #7C90A0;
+		padding: 40px 0;
+	}
+
+	#contact h2{
+		margin-bottom: 20px;
+	}
+
+
+}
+@media only screen and (min-width: 600px){
+	h1{
+		font-size: 80px;
+	}
+
+	#intro img{
+		height: 600px;
+	}
+}
+
+@media only screen and (min-width: 1100px){
+	header{
+		display: flex;
+	}
+
+	h1{
+		font-size: 90px;
+	}
+
+	.intro-img{
+		padding-top: 20px;
+	}
+
+	#hiya{
+		text-align: left;
+	}
+
+	#work{
+		display: inline-grid;
+	}
+
+	#aboutme{
+		padding: 0 40px;
+		font-size: 40px
+	}
+
+	#work{
+		display: inline-grid;
+		grid-template-columns: auto auto;
+		padding: 10%;
+	}
+
+	.description{
+		text-align: left;
+		padding-left: 60px;
+	}
+
+	.description h2{
+		padding-left: 28px;
+	}
+
+	.description a{
+		text-align: center;
+		margin-left: 22px;
+	}
+}

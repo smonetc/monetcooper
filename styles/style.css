@@ -87,6 +87,11 @@ img{
 	border-radius: 10px;
 }
 
+#desktopHavenimg{
+	border-radius: 10px;
+	border: 3px solid darkgrey;
+}
+
 .title{
 	color:#7C90A0;
 	text-align: center;

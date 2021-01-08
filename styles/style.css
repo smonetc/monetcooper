@@ -92,6 +92,10 @@ img{
 	border: 3px solid darkgrey;
 }
 
+#y51t-img{
+	border-radius: 10px;
+}
+
 .title{
 	color:#7C90A0;
 	text-align: center;
@@ -262,6 +266,10 @@ i a:hover{
 		margin-bottom: 20px;
 	}
 
+	img{
+		margin-top: 1em !important;
+	}
+
 
 }
 @media only screen and (min-width: 600px){
@@ -331,5 +339,13 @@ i a:hover{
 		font-weight: bolder;
 		font-size: 20px;
 		display: none;
+	}
+
+	.y51t{
+		padding-top: 1em;
+	}
+
+	.pizza{
+		padding-top: 1em;
 	}
 }
